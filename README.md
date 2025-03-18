@@ -13,7 +13,7 @@ The answer will be the maximum total value of each node along the path. Which, i
 # Test case
 
 - input = `[[59], [73, 41], [52, 40, 53], [26, 53, 6, 34]]` output = `237`
-- input = <https://raw.githubusercontent.com/Rocket-Innovation/Golang-Candidate-test/refs/heads/main/files/hard.json> output = `7273`
+- input = <https://raw.githubusercontent.com/Rocket-Innovation/Golang-Candidate-Test/refs/heads/main/files/hard.json> output = `7273`
 
 ---
 
