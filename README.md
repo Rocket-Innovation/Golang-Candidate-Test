@@ -2,17 +2,18 @@
 Golang test for candidates who apply to Rocket-innovation
 
 ## Sumarize covid data
-Create the api for summarizing covid records data from https://raw.githubusercontent.com/Rocket-Innovation/Golang-Candidate-Test/refs/heads/main/files/covid-cases.json
+Create the API for summarizing COVID records data from https://raw.githubusercontent.com/Rocket-Innovation/Golang-Candidate-Test/refs/heads/main/files/covid-cases.json
 
 ### Requirement
-- The project must provide the endpoint `/covid/summary` with received query poarameters
-- The endpoint must return the data in json format
-- The returned json must contain the number of occurance of each value for the query parameters, for the string occurance, the json must be sorted alphabetically.
-- If the query parameters queries the qualitative data and provide range of the data, it must provides those ranges and the total of data in each range. If there is no data put it in `N/A`
+- The project must provide the endpoint `/covid/summary` with received query parameters
+- The endpoint must return the data in JSON format
+The returned JSON must contain the number of occurrences of each value for the query parameters. For the string occurrences, the JSON must be sorted alphabetically.
+- If the query parameters query the qualitative data and provide the range of the data, it must provide those ranges and the total of data in each range. If there is no data put it in `N/A`
 
 ### Requirement2
 - The project must use go module
 - The project must use gin or fiber framework
+- please note that a blank string is not equal to null
 
 ### Bonus point
 - Writing test for the business logic
